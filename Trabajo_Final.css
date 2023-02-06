@@ -1,0 +1,52 @@
+/*  * {
+    box-sizing: border-box;
+    outline: 1px solid red;
+  } */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+header, section {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    display: flex;
+}
+
+article, aside {
+    text-align: center;
+    outline: 1px solid black;
+}
+
+header {
+    background-color: beige;
+}
+
+ul {
+    list-style-type: "✓";
+}
+
+
+article {
+ width: 45%;
+}
+
+
+img {
+    width: 200px;
+    height: 220px;
+    margin-right: 16px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3 {
+    text-decoration: underline solid;
+}
